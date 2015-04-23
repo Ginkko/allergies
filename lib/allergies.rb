@@ -12,7 +12,7 @@ class Fixnum
       end
       final_allergies
     else
-      return ["Allergy score too high, you're probably dead."]
+      return ["Allergy score too high, you're probably dead"]
     end
   end
 end
