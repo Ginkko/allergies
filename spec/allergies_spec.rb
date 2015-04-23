@@ -11,4 +11,8 @@ describe('Fixnum#allergies') do
     expect(129.allergies()).to(eq(["eggs", "cats"]))
   end
 
+  it('Checks for a score 256 or over and returns a special error message') do
+    expect(941.allergies()).to(eq(["Allergy score too high, you're probably dead."]))
+  end
+
 end
