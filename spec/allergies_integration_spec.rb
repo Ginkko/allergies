@@ -1,6 +1,5 @@
 require('capybara/rspec')
-require('capybara')
-require('/lib/allergies')
+require('./app')
 
 Capybara.app = Sinatra::Application
 set(:show_expectations,false)
